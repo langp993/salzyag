@@ -16,15 +16,32 @@ export default function Step2() {
           <span className="block text-gray-600">Was ist Solar.Top?</span>
         </h2>
 
-        <iframe
+        {/* <iframe
           className="max-w-full"
+          width="560"
+          height="215"
           width="560"
           height="215"
           src="https://www.youtube.com/embed/vY_WN7hAczA"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
+          allowfullscreen></iframe> */}
+
+        <iframe
+          className="max-w-full sm:max-w-xl mx-auto"
+          width="1200"
+          height="415"
+          src="https://www.youtube.com/embed/vY_WN7hAczA"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen></iframe>
+
+<div className="py-8"></div>
+        <div class="aspect-w-16 aspect-h-9">
+          <iframe src="https://www.youtube.com/embed/vY_WN7hAczA" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        </div>
 
         <p className="my-4">
           <strong class="font-bold text-lg block">
