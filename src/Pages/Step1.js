@@ -4,7 +4,7 @@ import { CursorClickIcon, ChevronRightIcon } from "@heroicons/react/outline";
 
 export default function Step1() {
   return (
-    <div className="px-8">
+    <div className="px-4">
       <p className="p-4 font-medium">
         Ihr persönliches Angebot für{" "}
         <span className="text-primary">Pfarrhofgutweg 39</span> Top{" "}
