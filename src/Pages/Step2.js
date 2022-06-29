@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function Step2() {
   return (
     <div className="mb-8">
-      <div className="px-6">
+      <div className="px-4">
         <div className="bg-yellow-200 max-w-sm">
         <h3 className="font-bold text-center md:text-left">Solar Top:</h3>
         </div>
