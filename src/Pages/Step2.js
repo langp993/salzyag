@@ -6,7 +6,7 @@ export default function Step2() {
   return (
     <div className="mb-8">
       <div className="px-4">
-        <div className="bg-yellow-200 max-w-sm">
+        <div className="bg-yellow-200 max-w-sm mx-auto md:ml-0">
         <h3 className="font-bold text-center md:text-left">Solar Top:</h3>
         </div>
         <div className="bg-green-200 max-w-sm mx-auto md:ml-0">
@@ -15,10 +15,12 @@ export default function Step2() {
           Weltfreundlich produziert.
         </p>
         </div>
+        <div className="bg-yellow-200 max-w-sm mx-auto md:ml-0 text-center md:text-left">
         <h2 className="my-4 text-lg font-bold uppercase text-primary">
           Zusammen Stromkosten sparen
           <span className="block text-gray-600">Was ist Solar.Top?</span>
         </h2>
+        </div>
 
         {/* <iframe
           className="max-w-full"
@@ -52,7 +54,7 @@ export default function Step2() {
 
         <div className="py-4"></div>
 
-        <div className="bg-green-200 max-w-sm my-4 mx-auto md:ml-0">
+        <div className="bg-green-200 max-w-sm my-4 mx-auto md:ml-0 text-center md:text-left">
         <h1 className="font-bold text-lg">Für Ihr Gebäude möglich:</h1>
         <p className="">
           Wir haben bereits mit Ihrer Gebäude Hausverwaltung den Anschluss

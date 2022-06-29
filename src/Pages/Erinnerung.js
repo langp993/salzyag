@@ -7,7 +7,7 @@ function Erinnerung() {
   let navigate = useNavigate();
 
   return (
-    <div className="">
+    <div className="px-4">
       <p className="mb-4 font-bold">
         Wir senden Ihnen in einer Wohe eine Erinnerungsemail.
       </p>
