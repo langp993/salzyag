@@ -6,7 +6,7 @@ function Keininteresse() {
   const [selected, setSelected] = useState(undefined);
 
   return (
-    <div className="px-4">
+    <div className="px-4 max-w-sm mx-auto">
       <p>
         Danke für die Information. Damit wir unseren Service verbessern können
         bitten wir Sie um Feedback:

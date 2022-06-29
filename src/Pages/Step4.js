@@ -4,7 +4,7 @@ import { DownloadIcon, ChevronRightIcon } from "@heroicons/react/outline";
 
 export default function Step4() {
   return (
-    <div className="px-4 mb-6">
+    <div className="px-4 mb-6 max-w-md mx-auto">
       <h3 className="font-bold">Ihr persönliches Angebot:</h3>
       <p className="mb-4">
         Wir haben auf Ihre Email Adresse folgende Dokumente zugesendet.
