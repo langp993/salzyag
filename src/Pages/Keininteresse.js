@@ -60,6 +60,7 @@ function Keininteresse() {
         <ChevronRightIcon className="w-6 h-6" />
       </Link>
 
+<div className="md:bottom-0 md:left-10 absolute">
       <Link to="tel:00436647674725" className="flex items-center my-8">
         <PhoneIcon className="w-8 h-8 mr-2 text-black" />
         <div>
@@ -67,6 +68,7 @@ function Keininteresse() {
           Bei Fragen rufen Sie uns gerne an
         </div>
       </Link>
+      </div>
     </div>
   );
 }
