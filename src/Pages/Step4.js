@@ -70,33 +70,40 @@ export default function Step4() {
         <div className="font-bold">¢ 28,0408 / 33,6490</div>
       </div>
     
-      <div className="bg-red-300 mx-auto h-[400px]">
-
-      <div className="bg-yellow-200 items-center justify-center max-w-md">
+      <div className="ismaincontainer bg-green-300 h-[400px]">
+      <div className="bg-blue-200 h-[200px] flex items-center -sm:justify-center relative">
+      <div className="bg-yellow-200 h-[180px] flex -sm:justify-center sm:right-0 max-w-md absolute">
+        <div className="bg-pink-500 flex justify-center h-full">
       <label className="flex py-0 px-0">
         <input type="checkbox" className="w-4 h-4 rounded mt-1.5 mr-4" />
-        Hiermit erkläre ich ausdrücklich, dass die Salzburg <br/>
-        AG mit der von mir beauftragte Dienstleitung vor Ablauf <br/>
-        der 14 tägigen Rücktrittsfrist gemäß § 11 FAGG beginnen soll. <br/>
       </label>
       </div>
+      <div>
+      <p>
+      Hiermit erkläre ich ausdrücklich, dass die Salzburg <br/>
+        AG mit der von mir beauftragte Dienstleitung vor Ablauf <br/>
+        der 14 tägigen Rücktrittsfrist gemäß § 11 FAGG beginnen soll. <br/>
+        </p>
+      </div>
+      </div>
+      </div>
 
-      <div className="bg-red-500 p-4">
-      <div className="bg-green-500 mx-auto">
+      <div className="bg-red-500 p-4 sm:p-14 relative flex items-center -sm:justify-center">
+      <div className="bg-green-500 p-4 items-center justify-center sm:right-0 sm:absolute">
       <Link
         to="/Step5"
-        className="flex justify-between px-4 py-3 mt-4 text-white rounded-lg bg-primary max-w-md">
+        className="flex justify-between px-4 py-3 mt-0 text-white rounded-lg bg-primary max-w-md">
         Bestellung/Angebot kostenpflichtig abschicken
         <ChevronRightIcon className="w-6 h-6" />
       </Link>
       </div>
       </div>
 
-      <div className="bg-green-500 p-4">
-      <div className="bg-white mx-auto">
+      <div className="bg-yellow-500 p-4 mt-[100px]">
+      <div className="bg-white flex justify-center items-center">
       <Link
         to="/erinnerung"
-        className="block px-4 py-3 mt-4 text-center rounded-lg shadow-lg max-w-md mx-aut ">
+        className="block px-4 py-3 mt-0 text-center rounded-lg shadow-lg max-w-md mx-aut ">
         Erinnern Sie mich in einer Woche
       </Link>
       </div>
