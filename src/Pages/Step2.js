@@ -7,9 +7,9 @@ export default function Step2() {
 <div className="mb-8">
    
      {/* <div className="py-2 md:top-[300px] bg-yellow-500 w-full"> */}
-     <div class="py-2 md:top-[300px] bg-yellow-500 w-full h-26 grid grid-cols-1 sm:grid-cols-2 gap-4 content-start">
+     <div class="py-2 md:top-[300px] bg-yellow-500 w-full h-[500px] h-26 grid grid-cols-1 sm:grid-cols-2 gap-4 content-start">
 
-       <div className="bg-purple-500 max-w-[500px] sm:max-w-full">
+       <div className="bg-purple-500 max-w-[500px] sm:max-w-full -sm:mx-auto">
        <div className="bg-pink-500">
 
        <div className="bg-green-500 max-w-sm mx-auto md:ml-0">
@@ -29,16 +29,31 @@ export default function Step2() {
        </div>
        </div>
        </div>
-       <div className="bg-red-500 max-w-[639px] sm:max-w-full">
-     <iframe
-         className="-sm:mx-auto sm:right-0 sm:absolute mx-auto "
-         width="60"
-         height="60"
+       <div className="bg-red-500 max-w-[639px] h-[300px] sm:max-w-full items-center justify-center flex">
+         {/* <div className="w-[50%] h-[50%] bg-green-500 items-center justify-center flex">
+           hello
+         </div> */}
+ 
+    <iframe
+         className="-sm:mx-auto sm:right-0  mx-auto object-scale-down"
+         width="410"
+         height="260"
          src="https://www.youtube.com/embed/vY_WN7hAczA"
          title="YouTube video player"
          frameBorder="0"
          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-         allowFullScreen></iframe>
+         allowFullScreen></iframe> 
+
+      {/* <div className="aspect-w-16 aspect-h-9">
+         <iframe
+         src="https://www.youtube.com/embed/vY_WN7hAczA"
+         frameBorder="0"
+         width="560"
+         height="215"
+         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+         allowFullScreen>
+         </iframe>
+       </div>  */}
  </div>
        </div>
     
@@ -107,8 +122,8 @@ export default function Step2() {
          Rahmenvertrag ansehen
        </button> */}
  
-     <div class="h-26 grid grid-cols-1 md:grid-cols-2 gap-4 content-start bg-white md:mx-20 top-[800px] absolute">
-     <div className="bg-white max-w-sm my-0 mx-auto md:ml-0 text-center md:text-left">
+     <div class="bg-green-500 -sm:mx-auto top-[800px] ">
+     <div className="bg-white max-w-sm my-0 mx-auto text-center">
        <h1 className="font-bold text-lg">Für Ihr Gebäude möglich:</h1>
        <p className="">
          Wir haben bereits mit Ihrer Gebäude Hausverwaltung den Anschluss
@@ -122,21 +137,15 @@ export default function Step2() {
          Rahmenvertrag ansehen
        </button>
        </div>
-{/*
-       <div className="bg-yellow-200">02</div>
-       <div className="bg-yellow-200">03</div>
-       <div className="bg-yellow-200">04</div>
-       <div className="bg-yellow-200">05</div>
-       <div className="bg-yellow-200">06</div>
-        */}
+
      </div>
  
-       {/* <p className="my-4 text-center md:top-[200px] absolute">Ihr Beitritt ist selbstverständlich freiwilig.</p> */}
+       <p className="my-4 text-center md:top-[200px]">Ihr Beitritt ist selbstverständlich freiwilig.</p>
    
     
      <div className="px-4">
      <Link
-       className="flex w-full justify-between mx-auto max-w-sm font-bold text-white rounded-lg shadow-md bg-yellow-500 top-[800px] absolute"
+       className="flex w-full justify-between mx-auto max-w-sm font-bold text-white rounded-lg shadow-md bg-yellow-500 top-[800px]"
        to="/step3">
        <button className="px-4 py-3 w-full bg-primary mx-auto  max-w-sm flex justify-between rounded">
        Unverbindlich mehr erfahren.
@@ -145,7 +154,7 @@ export default function Step2() {
      </Link>
      </div>
  
-     <Link to="/keininteresse" className="block p-4 text-center top-[950px] absolute">
+     <Link to="/keininteresse" className="block p-4 text-center top-[950px]">
        Kein Interesse.
      </Link>
      </div>
