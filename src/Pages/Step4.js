@@ -99,11 +99,11 @@ export default function Step4() {
       </div>
       </div>
 
-      <div className="bg-yellow-500 p-4 mt-[100px]">
-      <div className="bg-white flex justify-center items-center">
+      <div className="bg-yellow-500 py-4 mt-[100px]">
+      <div className="bg-white flex -sm:justify-center items-center py-8 relative">
       <Link
         to="/erinnerung"
-        className="block px-4 py-3 mt-0 text-center rounded-lg shadow-lg max-w-md mx-aut ">
+        className="px-4 py-3 mt-0 text-center rounded-lg shadow-lg max-w-md bg-green-200 sm:absolute sm:right-0">
         Erinnern Sie mich in einer Woche
       </Link>
       </div>
