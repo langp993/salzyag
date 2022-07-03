@@ -4,7 +4,7 @@ import { DownloadIcon, ChevronRightIcon } from "@heroicons/react/outline";
 
 export default function Step4() {
   return (
-    <div className="px-[4%] h-[2000px] mb-0 bg-white">
+    <div className="px-[4%] mb-14 bg-white">
       <h3 className="font-bold">Ihr persönliches Angebot:</h3>
       <p className="mb-4">
         Wir haben auf Ihre Email Adresse folgende Dokumente zugesendet.
@@ -88,70 +88,59 @@ export default function Step4() {
         <div className="font-bold">¢ 28,0408 / 33,6490</div>
       </div>
     
-      <div className="ismaincontainer bg-green-300 h-[320px]">
-      <div className="bg-white h-[100px] flex items-center justify-center relative mt-4">
-      <div className="bg-white h-[100px] flex justify-center lg:right-0 max-w-md lg:absolute">
-        <div className="bg-white flex justify-center h-full">
-      <label className="flex py-0 px-0">
-        <input type="checkbox" className="w-4 h-4 rounded mt-1.5 mr-4" />
-      </label>
-      </div>
-      <div>
-      <p>
-      Hiermit erkläre ich ausdrücklich, dass die Salzburg <br/>
-        AG mit der von mir beauftragte Dienstleitung vor Ablauf <br/>
-        der 14 tägigen Rücktrittsfrist gemäß § 11 FAGG beginnen soll. <br/>
-        </p>
-      </div>
-      </div>
-      </div>
+      <div className="px-[0%] h-[0px] mb-0 bg-pink-600">
 
-      <div className="bg-white p-4 sm:p-14 relative flex items-center justify-center">
-      <div className="bg-white p-4 items-center justify-center lg:right-0 lg:absolute">
-      <Link
-        to="/Step5"
-        className="flex justify-between px-4 py-3 mt-0 text-white rounded-lg bg-primary max-w-md">
-        Bestellung/Angebot kostenpflichtig abschicken
-        <ChevronRightIcon className="w-6 h-6" />
-      </Link>
-      </div>
-      </div>
 
-      <div className="bg-white p-4 mt-[0px]">
-      <div className="bg-white flex justify-center items-center py-8 relative">
-      <Link
-        to="/erinnerung"
-        className="px-4 py-3 mt-0 text-center rounded-lg shadow-lg max-w-md bg-white lg:absolute lg:right-0">
-        Erinnern Sie mich in einer Woche
-      </Link>
-      </div>
-      </div>
-      
+{/* <div className="ismaincontainer bg-green-300 h-[320px]"> */}
+<div className="bg-white my-4 relative mt-0 py-4">
+<div className="bg-white mb-8 -sm:h-[80px] lg:h-[80px] relative flex justify-center items-center">
+<div className="bg-white my-4 -sm:h-[80px] lg:h-[80px] flex justify-center lg:right-0 max-w-md lg:absolute">
+  <div className="bg-white flex justify-center h-full">
+<label className="flex py-0 px-0">
+  <input type="checkbox" className="w-4 h-4 rounded mt-1.5 mr-4" />
+</label>
+</div>
+<div>
+<p>
+Hiermit erkläre ich ausdrücklich, dass die Salzburg
+  AG mit der von mir beauftragte Dienstleitung vor Ablauf
+  der 14 tägigen Rücktrittsfrist gemäß § 11 FAGG beginnen soll.
+  </p>
+</div>
+</div>
+</div>
 
-      {/* <div className="bg-purple-500 p-4 mb-4 flex items-center -lg:justify-center">
-      <div className="bg-green-500 p-4 max-w-md lg:absolute lg:right-0">
-      <Link to="/keininteresse" className="p-4 mt-0 text-center">
-        Kein Interesse
-      </Link>
-      </div>
-      </div> */}
+<div className="bg-white my-4 h-[50px] relative flex items-center justify-center">
+<div className="bg-white items-center justify-center lg:right-0 lg:absolute">
+<Link
+  to="/Step5"
+  className="flex justify-between px-4 py-3 mt-0 text-white rounded-lg bg-primary w-[448px]">
+  Bestellung/Angebot kostenpflichtig abschicken
+  <ChevronRightIcon className="w-6 h-6" />
+</Link>
+</div>
+</div>
 
-      {/* <div className="bg-red-500 p-0 lg:p-7 relative flex items-center justify-center">
-      <div className="bg-green-500 p-4 items-center justify-center lg:right-5 lg:absolute">
-      Kein Interesse
-      </div>
-      </div> */}
+<div className="bg-white my-4 h-[50px] relative flex items-center justify-center">
+<div className="bg-white flex items-center justify-center lg:right-0 lg:absolute">
+<Link
+  to="/erinnerung"
+  className="flex px-4 py-3 mt-0 items-center justify-center rounded-lg shadow-lg w-[448px] bg-white">
+  Erinnern Sie mich in einer Woche
+</Link>
+</div>
+</div>
 
-      <div className="bg-white p-0 lg:p-7 relative flex items-center justify-center">
-      <div className="bg-white p-4 flex items-center justify-center lg:right-5 lg:absolute min-w-[265px]">
-      <Link to="/keininteresse" className="p-0 mt-0 text-center">
-        Kein Interesse
-      </Link>
-      </div>
-      </div>
+<div className="bg-white h-[50px] p-0 lg:p-0 relative flex items-center justify-center">
+<div className="bg-white h-[50px] p-4 flex items-center justify-center lg:right-0 lg:absolute w-[448px]">
+<Link to="/keininteresse" className="p-0 mt-0 text-center items-center justify-center">
+  Kein Interesse
+</Link>
+</div>
+</div>
 
-      </div>
-
+</div>
+    </div>
     </div>
   );
 }
