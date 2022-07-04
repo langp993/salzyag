@@ -36,7 +36,7 @@ export default function Step2() {
         Unverbindlich mehr erfahren.
         <ChevronRightIcon className="w-6 h-6" />
         </button>
-        
+
       </Link>
 
    <Link to="/keininteresse" className="invisible lg:visible block p-4 text-center max-w-sm top-[950px]">
@@ -46,7 +46,7 @@ export default function Step2() {
        </div>
   <div class="bg-white">
     <iframe
-         className="-sm:mx-auto sm:right-0  mx-auto object-scale-down"
+         className="-sm:mx-auto md:w-[710px] md:h-[360px] sm:right-0 mx-auto object-scale-down"
          width="410"
          height="260"
          src="https://www.youtube.com/embed/vY_WN7hAczA"
