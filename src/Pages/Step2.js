@@ -29,13 +29,15 @@ export default function Step2() {
        <p className="max-w-sm invisible lg:visible my-4 text-center md:top-[200px]">Ihr Beitritt ist selbstverständlich freiwilig.</p>
 
        <Link
-     className="invisible lg:visible flex w-full justify-between max-w-sm font-bold text-white rounded-lg shadow-md bg-yellow-500 top-[800px]"
-     to="/step3">
-     <button className="px-4 py-3 w-full bg-primary max-w-sm flex justify-between rounded">
-     Unverbindlich mehr erfahren.
-     <ChevronRightIcon className="w-6 h-6" />
-     </button>
-   </Link>
+
+        className="invisible lg:visible flex w-full justify-between max-w-sm font-bold text-white rounded-lg shadow-md bg-yellow-500 top-[800px]"
+        to="/step3">
+        <button className="px-4 py-3 w-full bg-primary max-w-sm flex justify-between rounded">
+        Unverbindlich mehr erfahren.
+        <ChevronRightIcon className="w-6 h-6" />
+        </button>
+        
+      </Link>
 
    <Link to="/keininteresse" className="invisible lg:visible block p-4 text-center max-w-sm top-[950px]">
      Kein Interesse.

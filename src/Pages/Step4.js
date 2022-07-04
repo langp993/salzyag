@@ -9,23 +9,6 @@ export default function Step4() {
       <p className="mb-8 lg:mb-14">
         Wir haben auf Ihre Email Adresse folgende Dokumente zugesendet.
       </p>
-{/* 
-      <div class="p-2 bg-yellow-500 w-[100%] -sm:h-[250px] sm:h-[100px] grid grid-cols-1 sm:grid-cols-3 gap-4 content-start">
-
-      <button className="flex w-md px-4 py-3 h-[50px] mx-auto mb-0 bg-white rounded-lg shadow-md w-[350px]">
-        <DownloadIcon className="w-6 h-6 mr-4 text-black" />
-        Rahmenvertrag ansehen
-      </button>
-      <button className="flex w-md px-4 py-3 mx-auto mb-0 bg-white rounded-lg shadow-md w-[350px]">
-        <DownloadIcon className="w-6 h-6 mr-4 text-black" />
-        Allgemeine Vertragsunterlagen
-      </button>
-      <button className="flex w-md px-4 py-3 mx-auto mb-0 bg-white rounded-lg shadow-md w-[350px]">
-        <DownloadIcon className="w-6 h-6 mr-4 text-black" />
-        Beitrittserklärung
-      </button>
-
-      </div> */}
 
       <div class="p-2 bg-white lg:h-[70px] -lg:h-[170px] grid grid-cols-1 lg:grid-cols-3 gap-4 content-start mt-4 flex items-center justify-center">
 
@@ -43,7 +26,6 @@ export default function Step4() {
       </button>
 
       </div>
-
 
       {/* <p className="mt-6">
         Wir schätzen Ihre monatliche Strom Ersparnis auf etwa{" "}
@@ -102,7 +84,7 @@ export default function Step4() {
 </div>
 <div>
 <p>
-Hiermit erkläre ich ausdrücklich, dass die Salzburg
+  Hiermit erkläre ich ausdrücklich, dass die Salzburg
   AG mit der von mir beauftragte Dienstleitung vor Ablauf
   der 14 tägigen Rücktrittsfrist gemäß § 11 FAGG beginnen soll.
   </p>
