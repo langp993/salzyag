@@ -6,7 +6,7 @@ export default function Step4() {
   return (
     <div className="px-[4%] mb-[400px] bg-white">
       <h3 className="font-bold">Ihr persönliches Angebot:</h3>
-      <p className="mb-4">
+      <p className="mb-8 lg:mb-14">
         Wir haben auf Ihre Email Adresse folgende Dokumente zugesendet.
       </p>
 {/* 
@@ -56,7 +56,7 @@ export default function Step4() {
         genaue Bertrag kann erst nach Betrieb Ermittelt werden. <br /> <br />
       </p> */}
 
-      <p className="mt-6 text-black">
+      <p className="mt-8 lg:mt-14 text-black">
         Florian Bauer <br />
         Pfarrhofgutweg 39 Top 16 <br />
         5400 Hallein

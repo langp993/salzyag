@@ -4,36 +4,45 @@ import { Link } from "react-router-dom";
 
 export default function Step2() {
   return (
-<div className="mb-8">
-   
-     {/* <div className="py-2 md:top-[300px] bg-yellow-500 w-full"> */}
-     <div class="py-2 md:top-[300px] bg-yellow-500 w-full h-[500px] h-26 grid grid-cols-1 sm:grid-cols-2 gap-4 content-start">
+<div className="bg-white mb-8 px-8">
 
-       <div className="bg-purple-500 max-w-[500px] sm:max-w-full -sm:mx-auto">
-       <div className="bg-pink-500">
+<div className="bg-white px-4 mb-2">
 
-       <div className="bg-green-500 max-w-sm mx-auto md:ml-0">
-       <h3 className="font-bold text-center md:text-left">Solar Top:</h3>
-       </div>
-       <div className="bg-green-500 max-w-sm mx-auto md:ml-0">
-       <p className="">
+<div class="grid lg:grid-cols-2 gap-4 mb-14 bg-white">
+  <div class="bg-white h-[160px] lg:h-full"> 
+  
+      <p className="lg:mb-0 max-w-sm">
          Sie haben eine 100KW Anlage auf dem Dach Ihres Gebäudes, die Strom um-
          Weltfreundlich produziert.
        </p>
-       </div>
-       <div className="bg-red-500 max-w-sm mx-auto md:ml-0 text-center md:text-left">
-       <h2 className="my-4 text-lg font-bold uppercase text-primary">
+
+       <h2 className="lg:mb-[40px] my-4 text-lg font-bold uppercase text-primary">
          Zusammen Stromkosten sparen
          <span className="block text-gray-600">Was ist Solar.Top?</span>
        </h2>
+
+       <button className="invisible lg:visible flex w-full px-4 py-3 mb-6 bg-white rounded-lg shadow-md max-w-sm ">
+         <DownloadIcon className="w-6 h-6" />
+         Rahmenvertrag ansehen
+       </button>
+
+       <p className="max-w-sm invisible lg:visible my-4 text-center md:top-[200px]">Ihr Beitritt ist selbstverständlich freiwilig.</p>
+
+       <Link
+     className="invisible lg:visible flex w-full justify-between max-w-sm font-bold text-white rounded-lg shadow-md bg-yellow-500 top-[800px]"
+     to="/step3">
+     <button className="px-4 py-3 w-full bg-primary max-w-sm flex justify-between rounded">
+     Unverbindlich mehr erfahren.
+     <ChevronRightIcon className="w-6 h-6" />
+     </button>
+   </Link>
+
+   <Link to="/keininteresse" className="invisible lg:visible block p-4 text-center max-w-sm top-[950px]">
+     Kein Interesse.
+   </Link>
+
        </div>
-       </div>
-       </div>
-       <div className="bg-red-500 max-w-[639px] h-[300px] sm:max-w-full items-center justify-center flex">
-         {/* <div className="w-[50%] h-[50%] bg-green-500 items-center justify-center flex">
-           hello
-         </div> */}
- 
+  <div class="bg-white">
     <iframe
          className="-sm:mx-auto sm:right-0  mx-auto object-scale-down"
          width="410"
@@ -43,122 +52,40 @@ export default function Step2() {
          frameBorder="0"
          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
          allowFullScreen></iframe> 
-
-      {/* <div className="aspect-w-16 aspect-h-9">
-         <iframe
-         src="https://www.youtube.com/embed/vY_WN7hAczA"
-         frameBorder="0"
-         width="560"
-         height="215"
-         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-         allowFullScreen>
-         </iframe>
-       </div>  */}
- </div>
-       </div>
+         </div>
+  
+  <div class="bg-white">
     
+    <button className="visible lg:invisible flex w-full px-4 py-3 mx-auto mb-6 bg-white rounded-lg shadow-md max-w-sm ">
+         <DownloadIcon className="w-6 h-6" />
+         Rahmenvertrag ansehen
+       </button>
 
- <div className="">
-       {/* <iframe
-         className="max-w-full"
-         width="560"
-         height="215"
-         width="560"
-         height="215"
-         src="https://www.youtube.com/embed/vY_WN7hAczA"
-         title="YouTube video player"
-         frameborder="0"
-         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-         allowfullscreen></iframe> */}
- 
- 
-       {/* <iframe
-         className="max-w-full sm:max-w-xl mx-auto px-8"
-         width="560"
-         height="315"
-         src="https://www.youtube.com/embed/vY_WN7hAczA"
-         title="YouTube video player"
-         frameBorder="0"
-         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-         allowFullScreen></iframe> */}
- 
-{/* <iframe
-         className="max-w-full sm:max-w-xl mx-auto md:right-[0px] md:top-[300px] absolute"
-         width="560"
-         height="315"
-         src="https://www.youtube.com/embed/vY_WN7hAczA"
-         title="YouTube video player"
-         frameBorder="0"
-         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-         allowFullScreen></iframe> */}
- 
- 
-{/*
-       <div className="py-4"></div>
- 
-       <div className="aspect-w-16 aspect-h-9">
-         <iframe
-         src="https://www.youtube.com/embed/vY_WN7hAczA"
-         frameBorder="0"
-         width="560"
-         height="215"
-         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-         allowFullScreen>
-         </iframe>
-       </div> */}
+       <p className="visible lg:invisible my-4 text-center md:top-[200px]">Ihr Beitritt ist selbstverständlich freiwilig.</p>
+
+       
+       <Link
+     className="visible lg:invisible flex w-full justify-between mx-auto max-w-sm font-bold text-white rounded-lg shadow-md bg-yellow-500 top-[800px]"
+     to="/step3">
+     <button className="px-4 py-3 w-full bg-primary mx-auto  max-w-sm flex justify-between rounded">
+     Unverbindlich mehr erfahren.
+     <ChevronRightIcon className="w-6 h-6" />
+     </button>
+   </Link>
+
+   <Link to="/keininteresse" className="visible lg:invisible block p-4 text-center top-[950px]">
+     Kein Interesse.
+   </Link>
+
+       </div>
+  
+</div>
+</div>
+
+     </div>
  
       
-{/*
-       <div className="bg-white max-w-sm my-4 mx-auto md:ml-0 text-center md:text-left">
-       <h1 className="font-bold text-lg">Für Ihr Gebäude möglich:</h1>
-       <p className="">
-         Wir haben bereits mit Ihrer Gebäude Hausverwaltung den Anschluss
-         vorbereitet:
-       </p>
-       </div>
- 
-       <button className="flex w-full px-4 py-3 mx-auto mb-6 bg-white rounded-lg shadow-md max-w-sm">
-         <DownloadIcon className="w-6 h-6" />
-         Rahmenvertrag ansehen
-       </button> */}
- 
-     <div class="bg-green-500 -sm:mx-auto top-[800px] ">
-     <div className="bg-white max-w-sm my-0 mx-auto text-center">
-       <h1 className="font-bold text-lg">Für Ihr Gebäude möglich:</h1>
-       <p className="">
-         Wir haben bereits mit Ihrer Gebäude Hausverwaltung den Anschluss
-         vorbereitet:
-       </p>
-       </div>
- 
-<div>
-       <button className="flex w-full px-4 py-3 mx-auto mb-6 bg-white rounded-lg shadow-md max-w-sm ">
-         <DownloadIcon className="w-6 h-6" />
-         Rahmenvertrag ansehen
-       </button>
-       </div>
 
-     </div>
- 
-       <p className="my-4 text-center md:top-[200px]">Ihr Beitritt ist selbstverständlich freiwilig.</p>
-   
-    
-     <div className="px-4">
-     <Link
-       className="flex w-full justify-between mx-auto max-w-sm font-bold text-white rounded-lg shadow-md bg-yellow-500 top-[800px]"
-       to="/step3">
-       <button className="px-4 py-3 w-full bg-primary mx-auto  max-w-sm flex justify-between rounded">
-       Unverbindlich mehr erfahren.
-       <ChevronRightIcon className="w-6 h-6" />
-       </button>
-     </Link>
-     </div>
- 
-     <Link to="/keininteresse" className="block p-4 text-center top-[950px]">
-       Kein Interesse.
-     </Link>
-     </div>
-   </div>
  );
 }
 
