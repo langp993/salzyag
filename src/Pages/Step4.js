@@ -4,7 +4,7 @@ import { DownloadIcon, ChevronRightIcon } from "@heroicons/react/outline";
 
 export default function Step4() {
   return (
-    <div className="px-[40px] mb-[400px] bg-red-500">
+    <div className="px-[40px] pb-[180px] bg-red-500">
       <div className="bg-white text-center leading-loose mb-8">
       <h3 className="font-bold text-black text-[20px] md:text-[40px] font-mono">IHR PERSÖNLICHES ANGEBOT:</h3>
       <p className="text-black font-mono text-[15px]">
@@ -77,13 +77,12 @@ export default function Step4() {
 
       </div>
     
-      <div className="h-[400px] mb-0 bg-pink-600">
 
 
 {/* <div className="ismaincontainer bg-green-300 h-[320px]"> */}
-<div className="bg-green-500 relative mt-0 py-0 md:w-[600px] mx-auto">
-<div className="bg-yellow-500 mb-8 -sm:h-[80px] sm:h-[80px] relative flex justify-center items-center">
-<div className="bg-white -sm:h-[80px] sm:h-[80px] flex justify-center items-center w-[448px]">
+<div className="bg-green-500 mt-0 py-0 max-w-[400px] mx-auto">
+<div className="bg-yellow-500 mb-8 -sm:h-[80px] h-[80px] relative flex justify-center items-center">
+<div className="bg-yellow-500 -sm:h-[100px] h-[100px] flex justify-center items-center w-[448px]">
   <div className="bg-white flex justify-center h-full">
 <label className="flex py-0 px-0">
   <input type="checkbox" className="w-4 h-4 rounded mt-1.5 mr-4" />
@@ -100,21 +99,19 @@ export default function Step4() {
 </div>
 
 <div className="bg-white my-4 h-[50px] relative flex items-center justify-center">
-<div className="bg-white items-center justify-center">
 <Link
   to="/Step5"
-  className="flex justify-between px-4 py-3 mt-0 text-white rounded-lg bg-primary w-[448px]">
+  className="flex justify-between px-4 py-3 mt-0 text-white rounded-lg bg-primary w-full">
   Bestellung/Angebot kostenpflichtig abschicken
   <ChevronRightIcon className="w-6 h-6" />
 </Link>
-</div>
 </div>
 
 <div className="bg-white my-4 h-[50px] relative flex items-center justify-center">
 <div className="bg-white flex items-center justify-center">
 <Link
   to="/erinnerung"
-  className="flex px-4 py-3 mt-0 items-center justify-center rounded-lg shadow-lg w-[448px] bg-white">
+  className="flex px-4 py-3 mt-0 items-center justify-center rounded-lg shadow-lg w-full bg-white">
   Erinnern Sie mich in einer Woche
 </Link>
 </div>
@@ -130,6 +127,6 @@ export default function Step4() {
 
 </div>
     </div>
-    </div>
+  
   );
 }
