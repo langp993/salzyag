@@ -4,7 +4,7 @@ import { DownloadIcon, ChevronRightIcon } from "@heroicons/react/outline";
 
 export default function Step4() {
   return (
-    <div className="px-[40px] pb-[180px] bg-red-500">
+    <div className="px-[40px] pb-[180px] bg-white">
       <div className="bg-white text-center leading-loose mb-8">
       <h3 className="font-bold text-black text-[20px] md:text-[40px] font-mono">IHR PERSÖNLICHES ANGEBOT:</h3>
       <p className="text-black font-mono text-[15px]">
@@ -12,20 +12,20 @@ export default function Step4() {
       </p>
       </div>
 
-      <div class="p-0 bg-yellow-500 max-w-[600px] mx-auto md:h-full -md:h-full grid grid-cols-1 md:grid-cols-1 gap-6 content-start mt-0 flex items-center justify-center">
+      <div class="p-0 bg-white max-w-[600px] mx-auto md:h-full -md:h-full grid grid-cols-1 md:grid-cols-1 gap-6 content-start mt-0 flex items-center justify-center">
 
-      <button className="flex justify-between px-6 items-center text-white bg-primary w-full px-0 py-0 h-[50px] mb-0 bg-white rounded-lg shadow-md">
+      <button className="flex justify-between px-6 items-center text-black bg-white w-full px-0 py-0 h-[50px] mb-0 bg-white rounded-lg shadow-md">
         Rahmenvertrag ansehen
-        <DownloadIcon className="w-6 h-6 mr-4 text-white" />
+        <DownloadIcon className="w-6 h-6 mr-4 text-black" />
         
       </button>
-      <button className="flex justify-between px-6 items-center text-white bg-primary w-full px-0 py-0 h-[50px] mb-0 bg-white rounded-lg shadow-md">
+      <button className="flex justify-between px-6 items-center text-black bg-white w-full px-0 py-0 h-[50px] mb-0 bg-white rounded-lg shadow-md">
         Allgemeine Vertragsunterlagen
-        <DownloadIcon className="w-6 h-6 mr-4 text-white" />
+        <DownloadIcon className="w-6 h-6 mr-4 text-black" />
       </button>
-      <button className="flex justify-between px-6 items-center text-white bg-primary w-full px-0 py-0 h-[50px] mb-0 bg-white rounded-lg shadow-md">
+      <button className="flex justify-between px-6 items-center text-black bg-white w-full px-0 py-0 h-[50px] mb-0 bg-white rounded-lg shadow-md">
         Beitrittserklärung
-        <DownloadIcon className="w-6 h-6 mr-4 text-white" />
+        <DownloadIcon className="w-6 h-6 mr-4 text-black" />
       </button>
 
       </div>
@@ -41,7 +41,7 @@ export default function Step4() {
         genaue Bertrag kann erst nach Betrieb Ermittelt werden. <br /> <br />
       </p> */}
 
-      <div className="bg-green-200 my-10 max-w-[600px] mx-auto">
+      <div className="bg-white mt-12 mb-14 max-w-[600px] mx-auto">
 
       <p className="text-black">
         Florian Bauer <br />
@@ -80,10 +80,9 @@ export default function Step4() {
 
 
 {/* <div className="ismaincontainer bg-green-300 h-[320px]"> */}
-<div className="bg-green-500 mt-0 py-0 max-w-[400px] mx-auto">
-<div className="bg-yellow-500 mb-8 -sm:h-[80px] h-[80px] relative flex justify-center items-center">
-<div className="bg-yellow-500 -sm:h-[100px] h-[100px] flex justify-center items-center w-[448px]">
-  <div className="bg-white flex justify-center h-full">
+<div className="bg-white h-[400px] mt-0 py-0 max-w-[400px] mx-auto">
+<div className="bg-white h-[130px] mb-4 flex w-full">
+  <div className="bg-white mb-4 flex justify-center h-full">
 <label className="flex py-0 px-0">
   <input type="checkbox" className="w-4 h-4 rounded mt-1.5 mr-4" />
 </label>
@@ -96,9 +95,9 @@ export default function Step4() {
   </p>
 </div>
 </div>
-</div>
 
-<div className="bg-white my-4 h-[50px] relative flex items-center justify-center">
+
+<div className="bg-white my-0 h-[50px] relative flex items-center justify-center">
 <Link
   to="/Step5"
   className="flex justify-between px-4 py-3 mt-0 text-white rounded-lg bg-primary w-full">
@@ -108,21 +107,17 @@ export default function Step4() {
 </div>
 
 <div className="bg-white my-4 h-[50px] relative flex items-center justify-center">
-<div className="bg-white flex items-center justify-center">
 <Link
   to="/erinnerung"
   className="flex px-4 py-3 mt-0 items-center justify-center rounded-lg shadow-lg w-full bg-white">
   Erinnern Sie mich in einer Woche
 </Link>
 </div>
-</div>
 
 <div className="bg-white h-[50px] p-0 sm:p-0 relative flex items-center justify-center">
-<div className="bg-white h-[50px] p-4 flex items-center justify-center w-[448px]">
 <Link to="/keininteresse" className="p-0 mt-0 text-center items-center justify-center">
   Kein Interesse
 </Link>
-</div>
 </div>
 
 </div>
