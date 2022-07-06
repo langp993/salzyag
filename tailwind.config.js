@@ -7,6 +7,11 @@ module.exports = {
       colors: {
         primary: "#C72020",
       },
+      
+      fontFamily: {
+        'nunito': ['nunito', 'sans-serif'],
+        'MyFont': ['"My Font"', 'serif'] // Ensure fonts with spaces have " " surrounding it.
+      },
 
     screens: {
       '-sm' : { max: '639px'},
