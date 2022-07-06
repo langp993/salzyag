@@ -14,16 +14,16 @@ export default function Step4() {
 
       <div class="p-0 bg-white max-w-[600px] mx-auto md:h-full -md:h-full grid grid-cols-1 md:grid-cols-1 gap-6 content-start mt-0 flex items-center justify-center">
 
-      <button className="flex justify-between px-6 items-center text-white bg-primary w-full px-0 py-0 h-[50px] mb-0 bg-white rounded-lg shadow-md">
+      <button className="flex justify-between pl-6 pr-1 items-center text-white bg-primary w-full px-0 py-0 h-[50px] mb-0 bg-white rounded-lg shadow-md">
         Rahmenvertrag ansehen
         <DownloadIcon className="w-6 h-6 mr-4 text-white" />
         
       </button>
-      <button className="flex justify-between px-6 items-center text-white bg-primary w-full px-0 py-0 h-[50px] mb-0 bg-white rounded-lg shadow-md">
+      <button className="flex justify-between pl-6 pr-1 items-center text-white bg-primary w-full px-0 py-0 h-[50px] mb-0 bg-white rounded-lg shadow-md">
         Allgemeine Vertragsunterlagen
         <DownloadIcon className="w-6 h-6 mr-4 text-white" />
       </button>
-      <button className="flex justify-between px-6 items-center text-white bg-primary w-full px-0 py-0 h-[50px] mb-0 bg-white rounded-lg shadow-md">
+      <button className="flex justify-between pl-6 pr-1 items-center text-white bg-primary w-full px-0 py-0 h-[50px] mb-0 bg-white rounded-lg shadow-md">
         Beitrittserklärung
         <DownloadIcon className="w-6 h-6 mr-4 text-white" />
       </button>
@@ -81,7 +81,7 @@ export default function Step4() {
 
 {/* <div className="ismaincontainer bg-green-300 h-[320px]"> */}
 <div className="bg-white h-[400px] mt-0 py-0 max-w-[400px] mx-auto">
-<div className="bg-white h-[130px] mb-4 flex w-full">
+<div className="bg-white h-[130px] mb-3 -ssm:mb-10 flex w-full">
   <div className="bg-white mb-4 flex justify-center h-full">
 <label className="flex py-0 px-0">
   <input type="checkbox" className="w-4 h-4 rounded mt-1.5 mr-4" />

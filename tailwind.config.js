@@ -12,11 +12,11 @@ module.exports = {
       '-sm' : { max: '639px'},
       // => @media (max-width: 639px) { ... }
 
-      'gg' : { }
+      '-ssm' : { max: '400px' },
     }
     },
   },
-  
+
   variants: {},
   plugins: [require("@tailwindcss/forms"),
   require("@tailwindcss/aspect-ratio")],
