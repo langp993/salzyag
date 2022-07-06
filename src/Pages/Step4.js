@@ -7,7 +7,7 @@ export default function Step4() {
     <div className="px-[40px] pb-[180px] bg-white">
       <div className="bg-white text-center leading-loose mb-8">
       <h3 className="font-bold text-black text-[20px] md:text-[40px] font-mono">IHR PERSÖNLICHES ANGEBOT:</h3>
-      <p className="text-black font-mono text-[15px]">
+      <p className="text-black mx-auto font-mono text-[15px]">
         Wir haben auf Ihre Email Adresse folgende Dokumente zugesendet.
       </p>
       </div>

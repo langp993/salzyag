@@ -34,9 +34,9 @@ export default function Step2() {
        </div>
 
 
-  <div class="bg-white mb-10 mx-auto justify-center flex">
+  <div class="bg-white my-12 mx-auto justify-center flex">
     <iframe
-         className="-sm:mx-auto md:w-[610px] md:h-[360px] sm:right-0 mx-auto object-scale-down"
+         className="-sm:mx-auto md:w-[510px] md:h-[300px] sm:right-0 mx-auto object-scale-down"
          width="410"
          height="260"
          src="https://www.youtube.com/embed/vY_WN7hAczA"

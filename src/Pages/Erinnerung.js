@@ -18,14 +18,14 @@ function Erinnerung() {
       </p>
       </div>
 
-      <div class="mx-auto h-26 grid grid-cols-1 md:grid-cols-2 gap-4 content-start bg-white">
-      <div className="bg-white mx-auto">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 bg-white">
+      <div className="bg-white">
       <a href="tel:00436647674725" className="flex my-0 font-bold text-primary">
         <PhoneIcon className="w-6 h-6 mr-2 text-black" />
         0800 / 660 660
       </a>
       </div> 
-    <div className="bg-white mx-auto">
+    <div className="bg-white">
       <a
         href="https://www.salzburg-ag.at"
         className="flex my-0 font-bold text-primary">
