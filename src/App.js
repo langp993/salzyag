@@ -16,7 +16,7 @@ function App() {
 
       
       <Router>
-        <div className="flex items-center justify-center p-4 mb-4">
+        <div className="flex items-center justify-center py-4 mb-4">
           <img className="w-52" src={Salzburgicon} alt="salzburgag" />
         </div>
         <Routes>

@@ -4,39 +4,29 @@ import { Link } from "react-router-dom";
 
 export default function Step2() {
   return (
-<div className="bg-white mb-8 px-[4%]">
+<div className="bg-white mb-[150px] px-[4%]">
 
-<div className="bg-white px-0 mb-0">
+<div className="bg-white">
 
   <div class="bg-white h-full"> 
-  
-      {/* <p className="lg:mb-0 max-w-sm">
-         Sie haben eine 100KW Anlage auf dem Dach Ihres Gebäudes, die Strom um-
-         Weltfreundlich produziert.
-       </p>
 
-       <h2 className="lg:mb-[40px] my-4 text-lg font-bold uppercase text-primary">
-         Zusammen Stromkosten sparen
-         <span className="block text-gray-600">Was ist Solar.Top?</span>
-       </h2> */}
-
-      <h3 className="font-bold text-black mb-6 text-[20px] text-center md:text-[30px] font-mono">ZUSAMMEN STROMKOSTEN SPAREN
+      <h3 className="font-bold text-black font-mono text-[20px] mb-6 text-center md:text-[40px]">ZUSAMMEN STROMKOSTEN SPAREN
       <span className="block text-red-500">Was ist Solar.Top?</span>
       </h3>
       
       <div className="bg-white">
-      <p className="text-black mx-auto max-w-[500px] text-center mx-auto mb-8 font-mono text-[15px]">
-      Sie haben eine 100KW Anlage auf dem Dach Ihres Gebäudes, die Strom um-
-      Weltfreundlich produziert.
-      </p>
+        <p className="font-mono text-black text-[15px] mb-8 mx-auto max-w-[700px] text-center">
+        Sie haben eine 100KW Anlage auf dem Dach Ihres Gebäudes, die Strom um-
+        Weltfreundlich produziert.
+        </p>
       </div>
 
        </div>
 
 
-  <div class="bg-white my-12 mx-auto justify-center flex">
+  <div class="bg-white my-12 mx-auto">
     <iframe
-         className="-sm:mx-auto md:w-[510px] md:h-[300px] sm:right-0 mx-auto object-scale-down"
+         className="-sm:mx-auto md:w-[650px] md:h-[370px] sm:right-0 mx-auto object-scale-down"
          width="410"
          height="260"
          src="https://www.youtube.com/embed/vY_WN7hAczA"
