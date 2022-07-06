@@ -8,9 +8,9 @@ function Erinnerung() {
 
   return (
     <div className="px-4 max-w-md mx-auto">
-      <div className="mx-auto bg-white text-center">
+      <div className="mx-auto bg-white ">
       <p className="mb-4 font-bold">
-        Wir senden Ihnen in einer Wohe eine Erinnerungsemail.
+        Wir senden Ihnen in einer Woche eine Erinnerungsemail.
       </p>
       <p className="mb-4">
         Falls Sie fragen haben können Sie uns auch gerne zu Geschäftszeiten hier
