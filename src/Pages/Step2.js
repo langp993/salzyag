@@ -10,7 +10,8 @@ export default function Step2() {
 
   <div class="bg-white h-full"> 
 
-      <h3 className="font-bold text-black font-nunito text-[20px] mb-6 text-center md:text-[40px]">ZUSAMMEN STROMKOSTEN SPAREN
+      <h3 className="font-bold text-black font-nunito mb-6 text-center -ssm:text-[15px] -sm:text-[20px] text-[40px]">
+        ZUSAMMEN STROMKOSTEN SPAREN
       <span className="block text-red-500">Was ist Solar.Top?</span>
       </h3>
       

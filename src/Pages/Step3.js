@@ -7,13 +7,13 @@ export default function Step3() {
   const [isCustomer, setIsCustomer] = useState(false);
 
   return (
-    <div className="px-4 max-w-md mx-auto">
+    <div className="bg-white max-w-md mx-auto">
       <p>
         Bitte geben Sie uns Ihre Stammdaten, damit wir Ihnen ein Angebot
         zusenden können.
       </p>
 
-      <div class="my-4 w-full">
+      <div class="my-4 max-w-md mx-auto">
         <label for="customer_nr" className="text-sm font-bold text-gray-700">
           Kundennummer (falls Sie bereits Kunde sind){" "}
         </label>
