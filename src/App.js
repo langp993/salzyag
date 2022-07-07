@@ -12,7 +12,7 @@ import Erinnerung from "./Pages/Erinnerung";
 function App() {
   return (
 
-    <div className="font-mono">
+    <div className="font-nunito">
 
       
       <Router>
