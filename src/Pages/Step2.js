@@ -10,12 +10,12 @@ export default function Step2() {
 
   <div class="bg-white h-full"> 
 
-      <h3 className="font-bold text-black font-mono text-[20px] mb-6 text-center md:text-[40px]">ZUSAMMEN STROMKOSTEN SPAREN
+      <h3 className="font-bold text-black font-nunito text-[20px] mb-6 text-center md:text-[40px]">ZUSAMMEN STROMKOSTEN SPAREN
       <span className="block text-red-500">Was ist Solar.Top?</span>
       </h3>
       
       <div className="bg-white">
-        <p className="font-mono text-black text-[15px] mb-8 mx-auto max-w-[700px] text-center">
+        <p className="font-nunito text-black text-[15px] mb-8 mx-auto max-w-[700px] text-center">
         Sie haben eine 100KW Anlage auf dem Dach Ihres Gebäudes, die Strom um-
         Weltfreundlich produziert.
         </p>
@@ -29,10 +29,10 @@ export default function Step2() {
          className="-sm:mx-auto md:w-[650px] md:h-[370px] sm:right-0 mx-auto object-scale-down"
          width="410"
          height="260"
-         src="https://www.youtube.com/embed/vY_WN7hAczA"
+         src="https://www.youtube.com/embed/vY_WN7hAczA?autoplay=1&mute=1&enablejsapi=1" //take away "?autoplay=1&mute=1&enablejsapi=1" to stop autoplay
          title="YouTube video player"
          frameBorder="0"
-         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+         allow="accelerometer; autoplay; loop; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
          allowFullScreen></iframe> 
          
 </div>
