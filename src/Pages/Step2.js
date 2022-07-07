@@ -15,7 +15,7 @@ export default function Step2() {
       </h3>
       
       <div className="bg-white">
-        <p className="font-nunito text-black text-[15px] mb-8 mx-auto max-w-[700px] text-center">
+        <p className="font-nunito text-black text-[15px] mb-8 mx-auto -sm:max-w-[400px] max-w-[700px] text-center">
         Sie haben eine 100KW Anlage auf dem Dach Ihres Gebäudes, die Strom um-
         Weltfreundlich produziert.
         </p>
@@ -26,7 +26,7 @@ export default function Step2() {
 
   <div class="bg-white my-12 mx-auto">
     <iframe
-         className="-sm:mx-auto md:w-[650px] md:h-[370px] sm:right-0 mx-auto object-scale-down"
+         className="-sm:w-[300px] -sm:h-[200px] md:w-[650px] md:h-[370px] sm:right-0 mx-auto object-scale-down"
          width="410"
          height="260"
          src="https://www.youtube.com/embed/vY_WN7hAczA?autoplay=1&mute=1&enablejsapi=1" //take away "?autoplay=1&mute=1&enablejsapi=1" to stop autoplay
@@ -50,7 +50,7 @@ export default function Step2() {
        <Link
      className="flex w-full justify-between mx-auto max-w-sm font-bold text-white rounded-lg shadow-md bg-yellow-500"
      to="/step3">
-     <button className="px-4 py-3 w-full bg-primary mx-auto  max-w-sm flex justify-between rounded">
+     <button className="transition ease-in-out delay-150 bg-primary hover:-translate-y-0 hover:scale-110 hover:bg-primary duration-300 px-4 py-3 w-full bg-primary mx-auto  max-w-sm flex justify-between rounded">
      Unverbindlich mehr erfahren.
      <ChevronRightIcon className="w-6 h-6" />
      </button>

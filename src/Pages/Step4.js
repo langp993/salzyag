@@ -63,7 +63,7 @@ export default function Step4() {
           </strong>
           Pro kWh in Cent netto / brutto
         </p>
-        <div className="font-bold">¢ 23,0000 / 27,6000</div>
+        <div className="font-bold">¢ 23,0000 / <strong className="block text-right">27,6000</strong></div>
       </div>
 
       <div className="flex items-center pb-4 text-black border-b border-black">
@@ -72,7 +72,7 @@ export default function Step4() {
           </strong>
           Pro kWh in Cent netto / brutto
         </p>
-        <div className="font-bold">¢ 28,0408 / 33,6490</div>
+        <div className="font-bold">¢ 28,0408 / <strong className="block text-right">33,6490></strong></div>
       </div>
 
       </div>
@@ -81,10 +81,10 @@ export default function Step4() {
 
 {/* <div className="ismaincontainer bg-green-300 h-[320px]"> */}
 <div className="bg-white h-full max-w-[400px] mx-auto">
-<div className="bg-white h-[130px] mb-3 -ssm:mb-10 flex w-full">
-  <div className="bg-white mb-4 flex justify-center h-full">
+<div className="bg-white h-full mb-3 -ssm:mb-10 flex ">
+  <div className="bg-white mb-4 mr-2 flex h-full">
 <label className="flex">
-  <input type="checkbox" className="w-4 h-4 rounded mt-1.5 mr-4" />
+  <input type="checkbox" className="w-4 h-4 rounded mt-1.5 mr-0" />
 </label>
 </div>
 <div>
@@ -97,12 +97,14 @@ export default function Step4() {
 </div>
 
 
-<div className="bg-white my-0 h-[50px] relative flex items-center justify-center">
+<div className="bg-white mt-12 my-0 h-[full] relative flex items-center justify-center">
 <Link
   to="/Step5"
   className="flex justify-between px-4 py-3 text-white rounded-lg bg-primary w-full">
   Bestellung/Angebot kostenpflichtig abschicken
+  <div className="items-center flex">
   <ChevronRightIcon className="w-6 h-6" />
+  </div>
 </Link>
 </div>
 
