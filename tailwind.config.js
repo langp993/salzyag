@@ -6,8 +6,13 @@ module.exports = {
       colors: {
         primary: "#C72020",
       },
+    screens: {
+      '-sm' : { max: '639px'},
+      // => @media (max-width: 639px) { ... }
+    }
     },
   },
   variants: {},
-  plugins: [require("@tailwindcss/forms")],
+  plugins: [require("@tailwindcss/forms"),
+  require("@tailwindcss/aspect-ratio")],
 };

@@ -7,7 +7,7 @@ export default function Step3() {
   const [isCustomer, setIsCustomer] = useState(false);
 
   return (
-    <div className="px-4">
+    <div className="px-4 max-w-md mx-auto">
       <p>
         Bitte geben Sie uns Ihre Stammdaten, damit wir Ihnen ein Angebot
         zusenden können.
