@@ -3,7 +3,7 @@ import { HomeIcon } from "@heroicons/react/solid";
 
 export default function Angebotangenommen() {
   return (
-    <div className="px-4 mb-6">
+    <div className="px-4 mb-6 max-w-md mx-auto">
       <h3 className="font-bold">Vielen Dank für Ihr Vertrauen</h3>
       <p className="mb-4">
         Wir haben Ihnen die Bestätigung per Email zugesendet. In der Regel

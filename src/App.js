@@ -11,7 +11,10 @@ import Erinnerung from "./Pages/Erinnerung";
 
 function App() {
   return (
-    <div className="max-w-lg mx-auto md:text-lg">
+
+    <div className="">
+
+      
       <Router>
         <div className="flex items-center justify-center p-4 mb-4">
           <img className="w-52" src={Salzburgicon} alt="salzburgag" />
